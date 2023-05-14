@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.Controller">
+    <padding>
+        <Insets bottom="200.0" left="200.0" right="200.0" top="200.0" />
+    </padding>
+   <children>
+      <Label text="Bitte geben Sie Ihre Kunden-id um die Rechnung generieren zu können: " />
+       <TextField id="userid" />
+      <Button id="btn-Generator" text="PDF Generieren" />
+
+   </children>
+</VBox>
